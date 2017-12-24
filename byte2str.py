@@ -51,6 +51,7 @@ class Byte2str(object):
         self.str_text.delete('1.0', 'end')
         self.str_text.insert('1.0', str_data)
 
+    # 字符串转字节流还没实现
     def str2byte(self):
         foo = self.str_text.get('1.0', 'end')
         print(foo.decode('cp936'))
